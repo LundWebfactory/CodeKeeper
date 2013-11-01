@@ -1,0 +1,49 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	*font-size:	90%; /* IE only */
+	padding:    0px;
+	margin:		0;
+	background:url('images/griddle.png') repeat;	
+}
+/* Splitter Layout */
+#layout_container ,
+#layout_container div {
+	padding:    0px;
+	overflow:	auto;
+}
+div#layout_container {
+	min-height:		500px;
+	overflow:	visible;
+	border: 1px solid grey;
+}
+.ui-layout-pane		{ background: #FFF; border: 0px solid #999; }
+.ui-layout-resizer	{ background: #EEE !important; border: 1px solid #999; }
+.ui-layout-toggler	{ background: #999 !important; } /* override '.middle-center div' rule */
+
+/* grey box in each section, containing 'html, css, javascript,other and preview' */
+.desc {
+	position: fixed;
+	width: 100%;
+	height: 17px;
+	opacity: .6;
+	background-color: black;
+	color: white;
+	font-size: 10px;
+}
+.desc span{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+/* genenal page layout */
+.header {
+	position: fixed;
+	min-height: 35px;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	color: white;
+	/*border-bottom: 1px dotted white;*/
+	z-index: 1000;
+	box-shadow: 0px 2px 5px #FFF;
+}
+.south-west pre, .south-center pre {position: relative;left: 0px;top: 17px;padding-left:10px;}
