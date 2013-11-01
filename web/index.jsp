@@ -20,7 +20,7 @@
 	<script type="text/javascript" src="settings.js"></script>
 </head>
 <body>
-<div class="header"></div>
+<div class="header"> </div>
 <div id="layout_container"><!-- Outer Layout Container -->
 
 	<div class="outer-west">
